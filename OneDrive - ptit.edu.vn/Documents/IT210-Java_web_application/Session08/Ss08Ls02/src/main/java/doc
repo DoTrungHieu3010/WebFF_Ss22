@@ -1,0 +1,2 @@
+Do BindingResult đặt sai vị trí vì vậy Spring không bind lỗi vào BindingResult mà ném exception MethodArgumentNotValidException
+nên dẫn đến 400 Bad Request và trang trắng rồi đoạn bindingResult.hasErrors() không được chạy
